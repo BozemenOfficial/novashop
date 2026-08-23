@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="NovaShop logo">
+  <defs>
+    <radialGradient id="mint" cx="32%" cy="24%" r="78%">
+      <stop offset="0" stop-color="#c9fff1"/>
+      <stop offset="0.38" stop-color="#72e7ce"/>
+      <stop offset="1" stop-color="#27a995"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0a0d12"/>
+  <rect x="8" y="8" width="48" height="48" rx="10" fill="url(#mint)" filter="url(#glow)"/>
+  <rect x="11.5" y="11.5" width="41" height="41" rx="8" fill="none" stroke="#e2fff7" stroke-opacity=".32"/>
+  <path d="M20 46V18h6.6L38 34.1V18h6v28h-6.4L26 29.7V46z" fill="#0a2823"/>
+</svg>
